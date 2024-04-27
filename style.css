@@ -1,0 +1,82 @@
+.header_container {
+  padding: 10px;
+  width: 1440px;
+  margin: auto;
+  background-color: rgb(255, 136, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.header_container h1 {
+  font-family: "Honk", system-ui;
+  font-size: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.filmcreator {
+  width: 800px;
+}
+
+.main_container {
+  width: 1440px;
+  background-color: rgb(255, 136, 0);
+  margin-left: 50px;
+}
+
+.filmcreator {
+  margin: auto;
+}
+
+.inputs {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+
+body {
+  background-color: rgb(255, 136, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  border: 1px solid black;
+  background: #ede8bd;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 248px;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.card h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card_body {
+  padding: 5px;
+}
+
+.wrapper {
+  width: 1440px;
+  margin-left: 180px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+}
